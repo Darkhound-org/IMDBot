@@ -1,4 +1,4 @@
-module github.com/Darkhound-org/IMBgo
+module github.com/Darkhound-org/IMDBot
 
 go 1.18
 

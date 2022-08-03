@@ -35,7 +35,82 @@ Note : File extensions can vary according to your OS
 In this directory structure, data and movie_log.txt are created by the application on various instances.
 
 ### Usage
-Get an OMDb API from https://www.omdbapi.com/ . Refer [Get_api_key_from_omdbapi.com.md]() for detailed info.
+Note: Usage on Windows. Similar usage for other operating systems. 
+Get an OMDb API from https://www.omdbapi.com/ . Refer [Get_api_key_from_omdbapi.com.md](https://github.com/Darkhound-org/IMDBot/blob/bots_exes/Get_api_key_from_omdbapi.com.md) for detailed info.
+Enter the api key by running key.exe file. A data file will be created.
+Open cmd.exe from the IMDBot folder and type `IMDBot.exe --help` .This will display all the commands and flags the app has along with the short description.
+```
+IMDBot can search information about your favourite movies and tv series right from the terminal.
+
+Usage:
+  IMDBot [command]
+
+Available Commands:
+  completion  Generate the autocompletion script for the specified shell
+  help        Help about any command
+  search      Searches your favourite movie or TV series
+  test        Test run
+
+Flags:
+  -h, --help      help for IMDBot
+  -t, --toggle    Help message for toggle
+  -v, --version   version for IMDBot
+
+Use "IMDBot [command] --help" for more information about a command.
+```
+Let's run the `test` command to make sure everything is fine. The output would be this if it works without any bug.
+```
+Response url (http://www.omdbapi.com/?t=Interstellar&apikey="YOUR_API_KEY")
+2022/08/03 12:22:46 !!..Open response url for detailed description of the movie or series..!!
+2022/08/03 12:22:46 !!..No bugs found. Successfully connected to IMDB api..!!
+2022/08/03 12:22:46 [ !!..IMDBot is okay..!! ]
+
+```
+Now let's search a movie. For that run the following command `IMDBot.exe search` . This will provide you with 3 choices
+```
++---+-------------------+
+| # | COMMANDS          |
++---+-------------------+
+| 1 | Search by name    |
+| 2 | Search by IMDB id |
+| 3 | Exit              |
++---+-------------------+
+Enter your choice [1,2 or 3] : 
+```
+As the commands suggest by entering choice as 1 , you can search your favourite movie by name and by entering 2, by IMDB id. An example is shown below.
+```
++---+-------------------+
+| # | COMMANDS          |
++---+-------------------+
+| 1 | Search by name    |
+| 2 | Search by IMDB id |
+| 3 | Exit              |
++---+-------------------+
+Enter your choice [1,2 or 3] : 1
+Name of movie: Titanic
+Response url (http://www.omdbapi.com/?t=Titanic&apikey="YOUR_API_KEY")
+2022/08/03 12:27:53 !!..Open response url for detailed description of the movie or series..!!
+2022/08/03 12:27:53 Output saved to movie_log.txt..!!
+```
+```
++---+-------------------+
+| # | COMMANDS          |
++---+-------------------+
+| 1 | Search by name    |
+| 2 | Search by IMDB id |
+| 3 | Exit              |
++---+-------------------+
+Enter your choice [1,2 or 3] : 2
+Enter IMDB id: tt0060196
+Response url (http://www.omdbapi.com/?i=tt0060196&apikey="YOUR_API_KEY")
+2022/08/03 12:28:48 !!..Open response url for detailed description of the movie or series..!!
+2022/08/03 12:28:48 Output saved to movie_log.txt..!!
+```
+The response url you get is saved to movie_log.txt and is overwritten each time. In some terminals the url will be hyperlinked in the text output `Response url`.
+
+
+
+
 
 
 

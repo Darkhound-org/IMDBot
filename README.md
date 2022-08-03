@@ -14,7 +14,7 @@ A command line bot built to search details about your favourite movies/series
 * [LICENSE]()
 
 ### Download
-Download the latest release from Github. IMDBot is a cross platform application and is compatible with both 32 and 64 bit systems.
+Download the latest release from Github. IMDBot is a cross platform application and is compatible with 64 bit systems only.
 
 ### Installation
 Unzip the application in any folder. IMDBot is a portable application. 

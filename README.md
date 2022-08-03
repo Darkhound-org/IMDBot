@@ -7,11 +7,11 @@
 A command line bot built to search details about your favourite movies/series
 
 * [DOWNLOAD](https://github.com/Darkhound-org/IMDBot#download)
-* [INSTALLATION]()
-* [USAGE]()
-* [DEVELOPING]()
-* [API]()
-* [LICENSE]()
+* [INSTALLATION](https://github.com/Darkhound-org/IMDBot#installation)
+* [USAGE](https://github.com/Darkhound-org/IMDBot#usage)
+* [DEVELOPING](https://github.com/Darkhound-org/IMDBot#developing)
+* [API](https://github.com/Darkhound-org/IMDBot#api)
+* [LICENSE](https://github.com/Darkhound-org/IMDBot#license)
 
 ### Download
 Download the latest release from Github. IMDBot is a cross platform application and is compatible with 64 bit systems only.

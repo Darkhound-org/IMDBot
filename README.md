@@ -106,8 +106,27 @@ Response url (http://www.omdbapi.com/?i=tt0060196&apikey="YOUR_API_KEY")
 2022/08/03 12:28:48 !!..Open response url for detailed description of the movie or series..!!
 2022/08/03 12:28:48 Output saved to movie_log.txt..!!
 ```
-The response url you get is saved to movie_log.txt and is overwritten each time. In some terminals the url will be hyperlinked in the text output `Response url`.
+The response url you get is saved to movie_log.txt and is overwritten each time. In some terminals the url will be hyperlinked in the text output `Response url`. 
+In the above example you have to copy paste the url into your browser to view the full output/description of the movie.
+To get poster of the movie copy-paste the poster url into your browser.
 
+### Developing
+IMDBot is built in Golang with the help of Cobra-cli and OMDB api. So, first install Golang and set all go environment variables. Clone this repository `https://github.com/Darkhound-org/IMDBot.git` and make a bin folder in it. cd to IMDBot folder, Set GOBIN as the bin folder and GOPATH as IMDBot folder.
+Run the following commands
+```
+go build main.go
+```
+cd to key folder and run
+```
+go build key.go
+```
+Now delete key.go and main.go files, move key.exe and main.exe [rename as IMDBot.exe] from bin folder to IMDBot and delete bin and key folders.
+
+### Api
+IMDBot uses IMDB api indirectly through the OMDBapi. Refer https://www.omdbapi.com/ for more details. For detailed info of getting an api key refer [Get_api_key_from_omdbapi.com.md](https://github.com/Darkhound-org/IMDBot/blob/bots_exes/Get_api_key_from_omdbapi.com.md) . 
+
+### License
+IMDBot is licensed under the [Apache License 2.0](https://github.com/Darkhound-org/IMDBot/blob/bots_exes/LICENSE.txt) 
 
 
 

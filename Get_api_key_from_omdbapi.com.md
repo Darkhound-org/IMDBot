@@ -3,3 +3,4 @@ Head to https://www.omdbapi.com/
 Go to https://www.omdbapi.com/apikey.aspx
 ![Screenshot (4)](https://user-images.githubusercontent.com/109220932/182553627-03ab1d79-115b-4f4d-bd48-f18d82838295.png)
 
+Enter all the recquired details and submit it. 

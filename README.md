@@ -128,7 +128,7 @@ IMDBot uses IMDB api indirectly through the OMDBapi. Refer https://www.omdbapi.c
 ### License
 IMDBot is licensed under the [Apache License 2.0](https://github.com/Darkhound-org/IMDBot/blob/bots_exes/LICENSE.txt) 
 
-###### Join our Discord server now to get notified of latest updates ,new releases and detailed changelogs 🔥🔥🔥
+###### Join our [Discord server](https://discord.gg/BSrD4kukaZ) now to get notified of latest updates ,new releases and detailed changelogs 🔥🔥🔥
 
 
 
